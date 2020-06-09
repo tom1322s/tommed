@@ -40,6 +40,32 @@ body
 	border-radius: 20px;
 }
 
+#introText
+{
+	color:white;
+	margin-left: 30px;
+	margin-top: 20px;
+	font-size: 28px;
+}
+
+a.tilelink
+{
+	color:white;
+}
+
+.icon
+{
+	float:left;
+	margin-right:100px;
+	margin-top:10px;
+	transition:all 0.5s ease-in-out;
+}
+
+.icon:hover
+{
+	transform:scale(1.5);
+}
+
 #logIn
 {
 	background-color: white;
@@ -448,139 +474,31 @@ body
 	
 }
 
-
-
-/*
-.main ol > li > ul > li:hover
+#about
 {
-	background-color: #adbaeb;
-	-webkit-transform: scale(1.05);
-	-ms-transform: scale(1.05);
-	transform: scale(1.05);
-	border-radius: 10px;
-	
-}
-
-.main ol > li > ul > li:hover > a
-{
-	color: black;
-	-webkit-transform: scale(1.2);
-	-ms-transform: scale(1.2);
-	transform: scale(1.2);
-}
-*/
-/*
-#menu
-{
-	background-color: #303030;
-	margin-top: 20px;
-	color: #ffffff;
-	padding: 10px;
-	
-}
-
-#topbar
-{
-	background-color: #128870;
+	background-color: #23388D;
 	color: white;
-	padding: 10px;
-	margin-top: 20px;
-	margin-bottom: 25px;
-	height: 170px;
+	text: justify;
+	margin-left: 10px;
+	margin-right: 10px;
+	min-height: 450px;
+	border-radius: 20px;
 }
 
-#topbarL
+#newMeetingText
 {
-	float:left;
-	padding: 20px;
-	width: 138px;
 	text-align: center;
-	border-right: 2px dotted #cccccc;
 }
 
-#topbarR
+.newMeetingInput
 {
-	float: left;
-	padding: 20px;
-	width: 760px;
-	font-size: 16px;
-	text-align: justify;
-}
-
-#sidebar
-{
-	float: left;
-	width: 148px;
-	min-height: 620px;
-	padding:20px;
-	background-color: lightgray;
+	background-color: white;
+	color: #23388D;
+	font-size: 40px;
+	width: 360px;
+	margin-left: 20px;
+	margin-right: 10px;
 	text-align: center;
-	font-size: 18px;
-	border-right: 2px dotted #666666;
+	border: 20px solid #23388D;
+	border-radius: 20px;
 }
-
-#content
-{
-	float: left;
-	padding: 40px;
-	width: 730px;
-	background-color: #dedede;
-	min-height: 580px;
-	text-align: justify;
-}
-
-#footer
-{
-	clear: both;
-	color: white;
-	text-align: center;
-	padding: 20px;
-	font-size: 18px;
-}
-
-.option
-{
-	float: left;
-	min-width: 50px;
-	height: 25px;
-	font-size: 18px;
-	padding: 10px;
-	border-right: 2px dotted #444444;
-	opacity: 0.8;
-}
-
-.option:hover
-{
-	background-color: #000000;
-	cursor: pointer;
-}
-
-.optionL
-{
-	font-size:18px;
-	height:25px;
-	padding: 10px;
-	border-bottom: 2px dotted #444444;
-}
-
-.optionL:hover
-{
-	background-color: #f36742;
-	color: white;
-	cursor: pointer;
-}
-
-.bigtitle
-{
-	font-size: 32px;
-	font-weight: 900;
-	letter-spacing: 2px;
-}
-
-.dottedline
-{
-	height: 5px;
-	margin-top: 15px;
-	margin-bottom: 20px;
-	border-bottom: 2px dotted #444444;
-}*/

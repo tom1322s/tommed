@@ -30,7 +30,7 @@
 				<li><a href="mainPage.php">Strona główna</a></li>
 				<li><a href="#">Wizyta Online</a>
 					<ul>
-						<li><a href="meetings.php">Moje izyty</a></li>
+						<li><a href="meetings.php">Moje wizyty</a></li>
 						<li><a href="clinics.php">Umów wizyte</a></li>
 					</ul>
 				</li>
@@ -39,7 +39,7 @@
 				<li><a href="#">Nasi Lekarze</a>
 					<ul>
 						<li><a href="doctors.php">Spis</a></li>
-						<li><a href="doctorsRank.php">Ranging</a></li>
+						<li><a href="doctorsRank.php">Ranking</a></li>
 					</ul>
 				</li>
 				<li><a href="#">Kontakt</a>

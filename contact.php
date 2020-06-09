@@ -15,9 +15,7 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<title>TOMMED - Witaj</title>
-	<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-	-->
-	<link rel="stylesheet" href="style2.css" type="text/css" />
+	<?php require_once "addCss.php" ?>
 </head>
 
 <body>
@@ -30,7 +28,7 @@
 				<li><a href="mainPage.php">Strona główna</a></li>
 				<li><a href="#">Wizyta Online</a>
 					<ul>
-						<li><a href="meetings.php">Moje izyty</a></li>
+						<li><a href="meetings.php">Moje wizyty</a></li>
 						<li><a href="clinics.php">Umów wizyte</a></li>
 					</ul>
 				</li>
@@ -39,7 +37,7 @@
 				<li><a href="#">Nasi Lekarze</a>
 					<ul>
 						<li><a href="doctors.php">Spis</a></li>
-						<li><a href="doctorsRank.php">Ranging</a></li>
+						<li><a href="doctorsRank.php">Ranking</a></li>
 					</ul>
 				</li>
 				<li><a href="#">Kontakt</a>
@@ -54,9 +52,12 @@
 		
 		</div>
 		
-		<div id="main">
-			
-			
+		<div id="about">
+			<div id="introText">
+				<br/><br/>
+				Nasz mail: tommed@tommed.com <br/><br/><br/>
+				Nasz telefon: 666-666-666 <br/><br/><br/>
+			</div>
 		
 		</div>
 		

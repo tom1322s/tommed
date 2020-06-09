@@ -309,7 +309,7 @@
 				</form>
 			
 			</div>
-			<div style="float:right;min-width:150px;"> obrazek</div>
+			<div style="float:right;min-width:150px;"> <img src="img/checklista.jpg"></div>
 			<div style="clear:both;"></div>
 		</div>	
 			
